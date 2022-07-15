@@ -2,6 +2,7 @@
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install php -y
+sudo apt-get install php-mysqli
 sudo apt-get install mysql-server -y
 sudo mysql
 CREATE USER 'test_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'EXAMPLE_PASSWORD';
